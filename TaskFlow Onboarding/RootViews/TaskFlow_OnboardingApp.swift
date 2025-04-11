@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
-struct TaskFlow_OnboardingApp: App {
+struct TaskFlow2025OnboardingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .modelContainer(for: [User.self, Item.self])
         }
     }
 }
