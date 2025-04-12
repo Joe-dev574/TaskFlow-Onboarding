@@ -98,7 +98,7 @@ struct IntroScreen: View {
                             .padding(.horizontal, 24)
                             .background(Category.today.color)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
-                            .shadow(color: Category.today.color.opacity(0.3), radius: 4, x: 0, y: 2)
+                            .shadow(color: Category.today.color.opacity(0.6), radius: 2, x: 2, y: 2)
                     }
                     .padding(.bottom, 20)
                     .accessibilityLabel("Next")
